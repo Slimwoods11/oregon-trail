@@ -1,8 +1,9 @@
-let wagon = new wagon(2);
+let wagon = new Wagon(2);
 // Create three travelers
 let henrietta = new Traveler('Henrietta');
 let juan = new Traveler('Juan');
 let maude = new Traveler('Maude');
+console.log(henrietta);
 console.log(
   `Wagon Seat Count?: ${wagon.getAvailableSeatCount()} – EXPECTED: 2. The wagon starts with 2 seats. We haven't added travelers to the wagon yet.`
 );
